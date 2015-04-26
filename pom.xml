@@ -82,6 +82,13 @@
 			<groupId>de.learnlib</groupId>
 			<artifactId>learnlib-kearns-vazirani</artifactId>
 		</dependency>
+		
+		<!-- Example automata that ship with LearnLib -->
+		<dependency>
+			<groupId>de.learnlib.testsupport</groupId>
+			<artifactId>learnlib-learning-examples</artifactId>
+			<scope>compile</scope>
+		</dependency>
 
 		<!-- For visualization purposes -->
 		<dependency>
