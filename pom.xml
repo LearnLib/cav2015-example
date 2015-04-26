@@ -54,6 +54,10 @@
 			<groupId>de.learnlib</groupId>
 			<artifactId>learnlib-simulator</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>de.learnlib</groupId>
+			<artifactId>learnlib-drivers-basic</artifactId>
+		</dependency>
 
 		<!-- A cache filter eliminates duplicate queries -->
 		<dependency>
