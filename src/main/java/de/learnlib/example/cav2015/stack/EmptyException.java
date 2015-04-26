@@ -16,6 +16,13 @@
  */
 package de.learnlib.example.cav2015.stack;
 
+/**
+ * This exception signals that a {@link BoundedArrayStack} or a
+ * {@link BoundedJavaStack} is full, i.e., the {@code push} request
+ * cannot be fulfilled due to capacity restrictions.
+ * 
+ * @author Malte Isberner
+ */
 public class EmptyException extends IllegalStateException {
 	private static final long serialVersionUID = 1L;
 }

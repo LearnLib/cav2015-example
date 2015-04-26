@@ -37,6 +37,14 @@ import de.learnlib.oracles.DefaultQuery;
 import de.learnlib.oracles.SULOracle;
 
 
+/**
+ * In this example, we learn models of two actual Java classes that
+ * realize a bounded stack. We use a mapper to ensure that both models
+ * are formulated on the same abstract level, and thus can be compared
+ * to find potential divergences in their implementation.
+ * 
+ * @author Malte Isberner
+ */
 public class Example3 {
 	
 	/**
